@@ -9,7 +9,7 @@ function displaytime(){
     document.getElementById('time').innerHTML = time;
 }
 
-/*  setInterval(displaytime, 1000) */
+ setInterval(displaytime, 1000) 
 /* setTimeout(time, 5000); */
 /* setInterval(time, 3000); */
 
