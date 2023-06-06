@@ -2,10 +2,6 @@ const tit = document.getElementById('title');
 
 function displaytime(){
     time = new Date();
-    var t = time.getHours();
-    var h = time.getMinutes();
-    var l = time.getSeconds();
-    console.log(t, h, l)
     document.getElementById('time').innerHTML = time;
 }
 
